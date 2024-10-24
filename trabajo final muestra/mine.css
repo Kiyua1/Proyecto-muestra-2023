@@ -1,0 +1,124 @@
+#bane{
+    width:3cm;
+    height: 3cm;
+}
+header{
+    background-color: rgb(17, 17, 17);
+    height: 3cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color:rgb(255, 255, 255);
+    font-family: 'Young Serif', serif;
+
+}
+body{
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    background-color: rgb(17, 17, 17);
+    flex-grow: 1;
+    text-align: center;
+   
+    
+}
+h5{
+   color: rgb(82, 80, 80);
+   font-family: 'Young Serif', serif;
+}
+h4{
+    color: rgb(82, 80, 80);
+    font-family: 'Young Serif', serif;
+ }
+#portada{
+    height: 10cm;
+    width: 11cm;
+    margin: 1cm;
+}
+#inicio{
+    display: flex;
+    align-items: center;
+}
+#ini{
+    background-color: grey;
+    color: white;
+    -webkit-box-shadow: 14px 17px 19px 13px rgba(0,0,0,0.84);
+-moz-box-shadow: 14px 17px 19px 13px rgba(0,0,0,0.84);
+box-shadow: 14px 17px 19px 13px rgba(0,0,0,0.84);
+height: 100%;
+width: 15cm;
+}
+h1{
+    color: white;
+    font-family: 'Young Serif', serif;
+}
+p{
+    font-size: x-large;
+    font-family: 'Young Serif', serif;
+}
+h2 {
+    color: white;
+    font-family: 'Young Serif', serif;
+}
+#dlc{
+    color: white;
+}
+#isla{
+    height: 10cm;
+    width: 11cm;
+    margin: 1cm;
+    -webkit-box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+    
+}
+#map{
+    height: 10cm;
+    width: 11cm;
+    margin: 1cm;
+    -webkit-box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+}
+p{
+    background-color: grey;
+    color: white;
+    -webkit-box-shadow: 14px 17px 19px 13px rgba(0,0,0,0.84);
+-moz-box-shadow: 14px 17px 19px 13px rgba(0,0,0,0.84);
+box-shadow: 14px 17px 19px 13px rgba(0,0,0,0.84);
+height: 100%;
+width: 25cm;
+padding: 45px;
+font-family: 'Young Serif', serif;
+}
+#isli{
+    display: flex;
+    align-items: center;
+    
+}
+#mapi{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   
+
+}
+#gris{
+    background-color:  rgb(54, 53, 53);
+}
+#dere{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#izq{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

@@ -1,0 +1,182 @@
+#bane{
+    width:3cm;
+    height: 3cm;
+}
+header{
+    background-color: rgb(17, 17, 17);
+    height: 3cm;
+    width: 100%;
+}
+
+h3{
+    color:black;
+}
+body{
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    background-color: rgb(17, 17, 17);
+    flex-grow: 1;
+    text-align: center;
+    height: 100%;
+    
+}
+h5{
+   color: rgb(82, 80, 80);
+}
+h4{
+    color: rgb(82, 80, 80);
+ }
+#ark{
+    height: 9cm;
+    width: 8cm;
+    box-shadow: 0 60px 60px -60 blue;
+    border-radius: 4px;
+    object-fit: cover;
+}
+#mine{
+    height: 9cm;
+    width: 8cm;
+    box-shadow: 0 60px 60px -60 blue;
+    border-radius: 4px;
+    object-fit: cover;
+}
+#wow{
+    height: 9cm;
+    width: 8cm;
+    box-shadow: 0 60px 60px -60 blue;
+    border-radius: 4px;
+    object-fit: cover;
+}
+#ruleta{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#asa{
+    position: relative;
+    width: 250px;
+    transition: all .3s ease;
+}
+#steve{
+    position: relative;
+    width: 250px;
+    transition: all .3s ease;
+}
+#orco{
+    position: relative;
+    width: 250px;
+    transition: all .3s ease;
+}
+#rex{
+    height: 9cm;
+position: absolute;
+width: 10cm;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+transform: translateY(25%);
+transition: .3s ease;
+opacity: 0;
+}
+#caba{
+    height: 9cm;
+    position: absolute;
+    width: 10cm;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+#orc{
+    height: 9cm;
+    position: absolute;
+    width: 10cm;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+#asa:hover{
+    transform: perspective(250px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0);
+}
+#asa::before{
+    content: '' ;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 10%,black(0,0,0,0.5) 50%,black 95%);
+    opacity: 0;
+    transition: all .3s ease;    
+}
+#asa:hover::before{
+    opacity: 1;
+}
+#asa:hover #rex{
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+#steve:hover{
+    transform: perspective(250px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0);
+}
+#steve::before{
+    content: '' ;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 10%,black(0,0,0,0.5) 50%,black 95%);
+    opacity: 0;
+    transition: all .3s ease;    
+}
+#steve:hover::before{
+    opacity: 1;
+}
+#steve:hover #caba{
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+#orco:hover{
+    transform: perspective(250px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0);
+}
+#orco::before{
+    content: '' ;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 10%,black(0,0,0,0.5) 50%,black 95%);
+    opacity: 0;
+    transition: all .3s ease;    
+}
+#orco:hover::before{
+    opacity: 1;
+}
+#orco:hover #orc{
+    opacity: 1;
+    transform: translateY(10%);
+}
+
